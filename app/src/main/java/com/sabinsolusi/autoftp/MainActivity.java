@@ -61,10 +61,10 @@ public class MainActivity extends AppCompatActivity {
     private Button btnDownload;
     private GifImageView anim;
 
-    private final String host = "10.100.0.254";
+    private final String host = "your_host_address";
     private final int port = 21;
-    private final String ftp_user = "digitalmr";
-    private final String ftp_password = "Rsdk#DMR";
+    private final String ftp_user = "your_ftp_username";
+    private final String ftp_password = "your_ftp_password";
 
     private Handler mHandler = new Handler();
 
